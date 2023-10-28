@@ -1,0 +1,213 @@
+.sidebar-container{
+    /* border: 4px solid blue; */
+    width: 300px;
+    height: 800px;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    /* border: 3px solid red; */
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 180px;
+    justify-content: center;
+}
+.logo img{
+    width: 40px;
+    border: none;
+    border-radius:20px ;
+}
+.menu-items{
+    height: 50px;
+    width: 270px;
+    margin-top: 10px;
+    /* margin-left: 3px; */
+    /* border: 3px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    
+}
+.menu-items img{
+    width: 30px;
+    /* border: 4px solid blue; */
+    margin-left: 75px;
+}
+.menu-items div{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    /* border: 3px solid rgb(5, 5, 0); */
+}
+.post-btn{
+    display: flex;
+    justify-content: center;
+    /* border: 4px solid red; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.post-btn button{
+    background-color: rgba(29,155,240);
+    padding: 15px 80px;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px; 
+}
+.username-info{
+    /* border: 3px solid red; */
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    width: 300px;
+}
+.username-img{
+    /* border: 4px solid blue; */
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.username-img img{
+    width: 45px;
+    border-radius:20px ;
+}
+.username-details{
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.user-head{
+    font-weight: bold;
+    font-family:  'Noto Serif', serif;
+    margin-bottom: 6px;
+}
+
+.user-nickname{
+    color: gray;
+    font-family:  'Noto Serif', serif;
+}
+.three-dots-btn{
+    /* border: 4px solid blue; */
+    width: 100px;
+    position: relative;
+}
+.three-dots-btn img{
+    width: 27px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+/* Right Sidebar */
+.right-sidebar-container{
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 340px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.search-bar input{
+    padding: 11px 75px;
+    background-color: rgba(239,243,244);
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.search-bar input::placeholder{
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+.premium{
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    background-color: rgba(239,243,244);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 315px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sub-head,.sub-info,.sub-button{
+    margin-left: 7px;
+}
+.sub-head{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.sub-info{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 21px;
+}
+.sub-btn{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;   
+}
+.trends{
+    margin-top: 25px;
+    border: 3px solid whitesmoke;
+    height: 360px;
+    margin-left: 10px;
+    background-color: rgba(239,243,244);
+}
+.foryou{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.trend-info{
+    margin-left: 8px;
+    margin-top: 10px;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.trend-overview{
+    /* border: 4px solid blue; */
+    margin-bottom: 10px;
+}
+.trend-topic{
+    color:gray;
+    display: flex;
+    justify-content: space-between;
+}
+.trend-topic img{
+    width: 21px;
+}
+.trend-subject{
+    font-weight: bold;
+}
+.trend-stats{
+    color: gray;
+}
+
+
+
+
+
+
+
+/* .search-bar img{
+    width: 20px;
+} */
