@@ -1,0 +1,82 @@
+.navbar-container{
+    /* border: 5px solid blue; */
+    position: absolute;
+    top: 0;
+    left: 16.25rem;
+    height: 100vh;
+    width: fit-content;
+    display: flex;
+}
+.navbar{
+    /* border: 4px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18%;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+/* caption of picture */
+.navbar div{
+    font-size: 13px;
+}
+
+.profile-picture{
+    width: 50px;
+    border-radius: 30px;
+    border:3px solid salmon;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+/* POST  */
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 4px solid red; */
+    position: absolute;
+    top: 12rem;
+    left: 7rem;
+    width: 70%;
+    
+}
+.post-info{
+    /* border: 4px solid blue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.post-info img{
+    border-radius: 25px;
+    width: 50px;
+}
+.post-details{
+    /* border: 4px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.post-details img{
+    width: 15px;
+    margin-left: 8px;
+}
+span{
+    margin-left:5px;
+}
+
+.post-image{
+    display: flex;
+    flex-direction: column;
+    /* border: 8px solid salmon; */
+    height: 70vh;
+    justify-content: center;
+}
+.post-image img{
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+}
